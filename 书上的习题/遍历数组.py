@@ -2,7 +2,7 @@ def show_magicians(magicians):
     for magician in magicians:
         print ('Hello'+','+' '+magician.title()+' !')
 
-# show_magicians(lovers)
+# 遍历数组，并打印一条消息
 
 def make_great(magicians):
     b=[]
@@ -12,7 +12,7 @@ def make_great(magicians):
     for i in b:
         magicians.append(i)
     return magicians
-  
+ 
 lovers = ['lily','baby','minova','mq']
 lo = make_great(lovers[:])
 show_magicians(lovers)

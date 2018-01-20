@@ -1,7 +1,7 @@
  #!/usr/bin/env python3
  # -*- coding:utf-8 -*-
 
-#列表练习，解决不能用户收到不同的提示
+#列表练习，解决不同用户收到不同的提示
 users=['lin','admin','abcd','lisa','wins','girl']
 if users:
     for user in users:
